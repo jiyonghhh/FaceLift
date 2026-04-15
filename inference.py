@@ -27,6 +27,7 @@ import warnings
 from typing import List, Tuple, Optional
 
 import torch
+import blackwell_compat  # noqa: F401  patches xformers on RTX 50-series
 import numpy as np
 from PIL import Image
 from einops import rearrange

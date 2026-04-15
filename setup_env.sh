@@ -38,8 +38,7 @@ pip install easydict==1.13 pyyaml==6.0.2 wandb==0.19.1 \
     termcolor==2.4.0 plyfile==1.0.3 tqdm gradio==5.49.1
 
 # System dependencies
-echo "🎬 Installing system dependencies..."
-sudo apt update && sudo apt install -y ffmpeg
+echo "🎬 Skipping system ffmpeg install (already present on system)"
 
 # Video processing
 pip install videoio==0.3.0 ffmpeg-python==0.2.0

@@ -24,6 +24,7 @@ from datetime import datetime
 import gradio as gr
 import numpy as np
 import torch
+import blackwell_compat  # noqa: F401  patches xformers on RTX 50-series
 import yaml
 from easydict import EasyDict as edict
 from einops import rearrange
