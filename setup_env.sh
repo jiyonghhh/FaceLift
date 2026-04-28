@@ -46,4 +46,7 @@ pip install videoio==0.3.0 ffmpeg-python==0.2.0
 # Specialized libraries
 pip install git+https://github.com/graphdeco-inria/diff-gaussian-rasterization
 
+# Mesh post-processing (extract_mesh.py)
+pip install open3d==0.18.0 scipy==1.11.4
+
 echo "✅ Setup complete!"
